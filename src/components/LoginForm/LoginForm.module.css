@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    padding: 0 16px;
+}
+.formContainer {
+    border-radius: 10px;
+    box-shadow: 0px 6px 16px rgba(50, 50, 50, 0.7);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 6px 16px rgba(103, 100, 103, 0.3);
+    width: 350px;
+    row-gap: 15px;
+}
+.formTitle {
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    color: #4b4a4a;
+    margin-bottom: 15px;
+}
+
+.formInputLabel {
+    display: block;
+    margin-bottom: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #383838;
+}
+
+.input {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #888;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: border-color 250ms, box-shadow 250ms;
+    color: black;
+}
+
+.input:focus {
+    border-color: #0544a9;
+    box-shadow: 0 0 4px rgba(60, 102, 227, 0.915);
+    outline: none;
+}
+
+.iconInputWrapper {
+    position: relative;
+    width: 100%;
+}
+
+.inputIcon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #525af8;
+}
+.btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #147ec9;
+    transition: background-color 250ms, transform 200ms;
+}
+
+.btn:hover {
+    background-color: #1d04ab;
+    transform: scale(1.05);
+}
+
+.btn:focus {
+    background-color: #5a47c5;
+    box-shadow: 0px 0px 4px 2px #a3b0ff;
+}
+
+.error {
+    font-size: 12px;
+    color: #fe2c2c;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+

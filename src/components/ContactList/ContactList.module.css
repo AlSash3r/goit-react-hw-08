@@ -1,0 +1,9 @@
+.container {
+    margin: 20px 0;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+}

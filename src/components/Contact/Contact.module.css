@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+
+    width: 345px;
+    justify-content: flex-end;
+    margin-top: 35px;
+
+}
+.listItem {
+    border: 1px solid #c2d4f2;
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 320px;
+    background-color: #ffffff;
+    color: #333333;
+    gap: 12px;
+}
+
+.infoItem {
+    display: flex;
+   
+    column-gap: 12px;
+    align-items: center;
+    color: #333333;
+    font-size: 16px;
+}
+.deleteBtn {
+
+    border-radius: 6px;
+    border-color: #f7a8a9;
+    color: #ffffff;
+    background-color: #ff6768;
+}
+
+.deleteBtn:hover,
+.deleteBtn:focus {
+    color: #ffffff;
+    background-color: #ff9462;
+}
+@media (prefers-color-scheme: light) {
+    .listItem {
+        border-color: #94c9a9;
+        background-color: #f9f9f9;
+        color: #2d2d2d;
+    }
+    .deleteBtn {
+        color: #2d2d2d;
+    }
+    .deleteBtn:hover,
+    .deleteBtn:focus {
+        color: #fafafa;
+        background-color: #e57373;
+    }
+}
