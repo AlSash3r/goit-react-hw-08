@@ -96,8 +96,6 @@
     color: #f3240d;
     text-transform: uppercase;
 }
-
-/* Мобилки (< 768px) */
 @media (max-width: 768px) {
     .form {
         padding: 15px;
